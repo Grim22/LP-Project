@@ -1471,7 +1471,7 @@ html, body {
     }
 
     .slider .heading-container {
-      padding: 10px 10px 20px 10px !important;
+      padding: 0 20px 40px 20px;
     }
 
     .slider h2 {
@@ -1494,14 +1494,10 @@ html, body {
 
     .slider h2 {
       font-size: 48px;
+      padding: 10px;
     }
     }
 
-  @media screen and (max-width: 1440px) {
-    .slider .heading-container{
-      padding: 20px 20px;
-    }
-  }
 
   /* CONTACT SECTION */
 
@@ -1847,8 +1843,27 @@ html, body {
         background-color: transparent;
     }
   }
+
+  @media (min-width: 1440px) {
+    .footer-layer2 {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr);
+      text-align: left;
+    }
+    
+    .footer-logo {
+      margin: 0 auto 10px;
+    }
+    
+    .footer-subtitle {
+      text-align: center;
+    }
+    
+    .social-icons {
+      justify-content: flex-start;
+    }
+  }
   
-  /* Responsive Design */
   @media (min-width: 375px) {
     .footer-layer2 {
       grid-template-columns: repeat(3, 1fr);
