@@ -636,41 +636,14 @@ html, body {
 
     /* 768 */
 
+
 @media screen and (max-width: 768px) {
 
-  .about-img-container {
-    height: 70vh;
-    width: 100%;
-  }
-
-  .about-img-container img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
- 
-  .about-card {
-    width: 80vw;
-    padding: 0 20px 0 20px;
-    bottom: 0;
-  }
-
-  .about-card h2 {
-      font-size: 56px;
-  }
-
-  .about-button-container {
+  .about-card-container{
+    height: auto;
+    padding: 20px 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 375px) {
-
-  .about-img-container {
-    height: 70vh;
-    width: 100%;
+    flex-direction: column;
   }
 
   .about-img-container img {
@@ -680,11 +653,13 @@ html, body {
   }
  
   .about-card {
-    padding: 0 0 0 10px;
+    padding: 0 20px;
     bottom: 0;
     width: 100%;
     height: auto;
     border-radius: 0;
+    position: unset;
+    box-shadow: unset;
   }
 
   .about-card h2 {
@@ -695,6 +670,12 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .about-card-container .logo-container {
+    position: unset;
+    height: auto;
+    padding: 30px 10px;
   }
 }
 
@@ -703,6 +684,8 @@ html, body {
 .about-card-container{
   height: auto;
   padding: 20px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-card {
@@ -732,6 +715,13 @@ html, body {
 .about-card .bio {
   padding-bottom: 20px;
 }
+
+.about-card-container .logo-container {
+  position: unset;
+  height: auto;
+  padding: 30px 10px;
+}
+
 }
 
 /* GET IT SOLD SECTION */
