@@ -27,27 +27,26 @@
 
     
 </head>
-<body>
 
-    <header id="navbar">
-        <div class="navbar-left">
-            <a class="navlink hyperlink-style2" href="#">Home</a>
-            <a class="navlink hyperlink-style2" href="#">Listings</a>
-        </div>
-        <div class="navbar-logo light-navbar-logo">
-           <a href="/">
-                <img src="Resources/Logo.png" alt="Logo">
-           </a>
-        </div>
-        <div class="navbar-right">
-            <a class="navlink hyperlink-style2" href="#">Let's Move</a>
-            <a class="navlink hyperlink-style2" href="#">About Us</a>
-            <div class="hamburger-container">
-                <div class="hamburger"></div>
-            </div>
-        </div>
-    </header>
     <body>
+        <header id="navbar">
+            <div class="navbar-left">
+                <a class="navlink hyperlink-style2" href="#">Home</a>
+                <a class="navlink hyperlink-style2" href="#">Listings</a>
+            </div>
+            <div class="navbar-logo light-navbar-logo">
+               <a href="/">
+                    <img src="Resources/Logo.png" alt="Logo">
+               </a>
+            </div>
+            <div class="navbar-right">
+                <a class="navlink hyperlink-style2" href="#">Let's Move</a>
+                <a class="navlink hyperlink-style2" href="#">About Us</a>
+                <div class="hamburger-container">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </header>
 
         <!--LANDING SECTION-->
 
@@ -89,9 +88,11 @@
         </div>
         <div class="about-card-container">
             <div class="about-card">
-                <p class="eyebrow">
+                <div class="eyebrow-container">
+                    <p class="eyebrow">
                         REALTOR FOR NEARLY 3 DECADES!
-                </p>
+                    </p>
+                </div>
                 <h2>
                         MARCI METZGER
                 </h2>
@@ -322,7 +323,9 @@
                         <input type="text"  class="input-field" placeholder="Name">
                         <input type="email"  class="input-field" placeholder="Email">
                         <textarea class="input-field" placeholder="Message"></textarea>
-                        <button class="dark-solid">SEND MESSAGE</button>
+                        <div class="button-container">
+                            <button class="dark-solid send">SEND MESSAGE</button>
+                        </div>
                     </div>
     
                     <!-- Right Column (Additional Info) -->
